@@ -1,0 +1,4366 @@
+{
+  "R": {
+    "Version": "4.5.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "Formula": {
+      "Package": "Formula",
+      "Version": "1.2-5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.0.0)",
+        "stats"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "GPArotation": {
+      "Package": "GPArotation",
+      "Version": "2025.3-1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.0.0)"
+      ],
+      "Imports": [
+        "stats"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "Hmisc": {
+      "Package": "Hmisc",
+      "Version": "5.2-5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.2.0)"
+      ],
+      "Imports": [
+        "methods",
+        "ggplot2",
+        "cluster",
+        "rpart",
+        "nnet",
+        "foreign",
+        "gtable",
+        "grid",
+        "gridExtra",
+        "data.table",
+        "htmlTable (>= 1.11.0)",
+        "viridisLite",
+        "htmltools",
+        "base64enc",
+        "colorspace",
+        "rmarkdown",
+        "knitr",
+        "Formula"
+      ],
+      "Suggests": [
+        "survival",
+        "qreport",
+        "acepack",
+        "chron",
+        "rms",
+        "mice",
+        "rstudioapi",
+        "tables",
+        "plotly (>= 4.5.6)",
+        "rlang",
+        "VGAM",
+        "leaps",
+        "pcaPP",
+        "digest",
+        "parallel",
+        "polspline",
+        "abind",
+        "kableExtra",
+        "rio",
+        "lattice",
+        "latticeExtra",
+        "gt",
+        "sparkline",
+        "jsonlite",
+        "htmlwidgets",
+        "qs",
+        "getPass",
+        "keyring",
+        "safer",
+        "htm2txt",
+        "boot"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "IsingFit": {
+      "Package": "IsingFit",
+      "Version": "0.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "Imports": [
+        "qgraph",
+        "Matrix",
+        "glmnet"
+      ],
+      "Suggests": [
+        "IsingSampler"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "IsingSampler": {
+      "Package": "IsingSampler",
+      "Version": "0.2.4",
+      "Source": "Repository",
+      "Imports": [
+        "plyr",
+        "magrittr",
+        "nnet",
+        "dplyr"
+      ],
+      "Depends": [
+        "Rcpp (>= 0.10.4)",
+        "R (>= 3.0.0)"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "KernSmooth": {
+      "Package": "KernSmooth",
+      "Version": "2.23-26",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.5.0)",
+        "stats"
+      ],
+      "Suggests": [
+        "MASS",
+        "carData"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "MASS": {
+      "Package": "MASS",
+      "Version": "7.3-65",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.4.0)",
+        "grDevices",
+        "graphics",
+        "stats",
+        "utils"
+      ],
+      "Imports": [
+        "methods"
+      ],
+      "Suggests": [
+        "lattice",
+        "nlme",
+        "nnet",
+        "survival"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "Matrix": {
+      "Package": "Matrix",
+      "Version": "1.7-3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.4)",
+        "methods"
+      ],
+      "Imports": [
+        "grDevices",
+        "graphics",
+        "grid",
+        "lattice",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "MASS",
+        "datasets",
+        "sfsmisc",
+        "tools"
+      ],
+      "Enhances": [
+        "SparseM",
+        "graph"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "NetworkToolbox": {
+      "Package": "NetworkToolbox",
+      "Version": "1.4.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "corrplot",
+        "doParallel",
+        "fdrtool",
+        "foreach",
+        "igraph",
+        "IsingFit",
+        "MASS",
+        "methods",
+        "parallel",
+        "pbapply",
+        "ppcor",
+        "psych",
+        "pwr",
+        "R.matlab",
+        "qgraph"
+      ],
+      "Suggests": [
+        "googledrive"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "PRROC": {
+      "Package": "PRROC",
+      "Version": "1.4",
+      "Source": "Repository",
+      "Suggests": [
+        "testthat",
+        "ggplot2",
+        "ROCR"
+      ],
+      "Depends": [
+        "rlang"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "R.matlab": {
+      "Package": "R.matlab",
+      "Version": "3.7.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.14.0)"
+      ],
+      "Imports": [
+        "methods",
+        "utils",
+        "R.methodsS3 (>= 1.7.1)",
+        "R.oo (>= 1.23.0)",
+        "R.utils (>= 2.5.0)"
+      ],
+      "Suggests": [
+        "Matrix",
+        "SparseM"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "R.methodsS3": {
+      "Package": "R.methodsS3",
+      "Version": "1.8.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.13.0)"
+      ],
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "codetools"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "R.oo": {
+      "Package": "R.oo",
+      "Version": "1.27.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.13.0)",
+        "R.methodsS3 (>= 1.8.2)"
+      ],
+      "Imports": [
+        "methods",
+        "utils"
+      ],
+      "Suggests": [
+        "tools"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "R.utils": {
+      "Package": "R.utils",
+      "Version": "2.13.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.14.0)",
+        "R.oo"
+      ],
+      "Imports": [
+        "methods",
+        "utils",
+        "tools",
+        "R.methodsS3"
+      ],
+      "Suggests": [
+        "datasets",
+        "digest (>= 0.6.10)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "R6": {
+      "Package": "R6",
+      "Version": "2.6.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Suggests": [
+        "lobstr",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "RColorBrewer": {
+      "Package": "RColorBrewer",
+      "Version": "1.1-3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Imports": [
+        "methods",
+        "utils"
+      ],
+      "Suggests": [
+        "tinytest",
+        "inline",
+        "rbenchmark",
+        "pkgKitten (>= 0.1.2)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "RcppEigen": {
+      "Package": "RcppEigen",
+      "Version": "0.3.4.0.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "Imports": [
+        "Rcpp (>= 0.11.0)",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "Matrix",
+        "inline",
+        "tinytest",
+        "pkgKitten",
+        "microbenchmark"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "Rdpack": {
+      "Package": "Rdpack",
+      "Version": "2.6.6",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.15.0)",
+        "methods"
+      ],
+      "Imports": [
+        "tools",
+        "utils",
+        "rbibutils (> 2.4)"
+      ],
+      "Suggests": [
+        "grDevices",
+        "testthat",
+        "rstudioapi",
+        "rprojroot",
+        "gbRd"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "S7": {
+      "Package": "S7",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "bench",
+        "callr",
+        "covr",
+        "knitr",
+        "methods",
+        "rmarkdown",
+        "testthat (>= 3.2.0)",
+        "tibble"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "SQUAREM": {
+      "Package": "SQUAREM",
+      "Version": "2026.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0)"
+      ],
+      "Suggests": [
+        "setRNG",
+        "interval"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "abind": {
+      "Package": "abind",
+      "Version": "1.4-8",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 1.5.0)"
+      ],
+      "Imports": [
+        "methods",
+        "utils"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "backports": {
+      "Package": "backports",
+      "Version": "1.5.0",
+      "Source": "Repository",
+      "NeedsCompilation": "yes",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "Repository": "CRAN"
+    },
+    "base64enc": {
+      "Package": "base64enc",
+      "Version": "0.1-6",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.9.0)"
+      ],
+      "Enhances": [
+        "png"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "bit": {
+      "Package": "bit",
+      "Version": "4.6.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Suggests": [
+        "testthat (>= 3.0.0)",
+        "roxygen2",
+        "knitr",
+        "markdown",
+        "rmarkdown",
+        "microbenchmark",
+        "bit64 (>= 4.0.0)",
+        "ff (>= 4.0.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "bit64": {
+      "Package": "bit64",
+      "Version": "4.6.0-1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4.0)",
+        "bit (>= 4.0.0)"
+      ],
+      "Imports": [
+        "graphics",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "testthat (>= 3.0.3)",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "boot": {
+      "Package": "boot",
+      "Version": "1.3-31",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)",
+        "graphics",
+        "stats"
+      ],
+      "Suggests": [
+        "MASS",
+        "survival"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "bootnet": {
+      "Package": "bootnet",
+      "Version": "1.8",
+      "Source": "Repository",
+      "Depends": [
+        "ggplot2",
+        "R (>= 3.0.0)"
+      ],
+      "Imports": [
+        "methods",
+        "igraph",
+        "IsingFit (>= 0.4)",
+        "qgraph",
+        "mantar",
+        "dplyr (>= 0.3.0.2)",
+        "tidyr",
+        "gtools",
+        "corpcor",
+        "IsingSampler (>= 0.2.3)",
+        "mvtnorm",
+        "abind",
+        "Matrix",
+        "snow",
+        "mgm (>= 1.2)",
+        "NetworkToolbox (>= 1.1.0)",
+        "pbapply",
+        "networktools",
+        "rlang",
+        "tibble",
+        "tidyselect"
+      ],
+      "Suggests": [
+        "glasso",
+        "BDgraph",
+        "graphicalVAR",
+        "relaimpo",
+        "lavaan",
+        "psychTools"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "broom": {
+      "Package": "broom",
+      "Version": "1.0.12",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "backports",
+        "cli",
+        "dplyr (>= 1.0.0)",
+        "generics (>= 0.0.2)",
+        "glue",
+        "lifecycle",
+        "purrr",
+        "rlang (>= 1.1.0)",
+        "stringr",
+        "tibble (>= 3.0.0)",
+        "tidyr (>= 1.0.0)"
+      ],
+      "Suggests": [
+        "AER",
+        "AUC",
+        "bbmle",
+        "betareg (>= 3.2-1)",
+        "biglm",
+        "binGroup",
+        "boot",
+        "btergm (>= 1.10.6)",
+        "car (>= 3.1-2)",
+        "carData",
+        "caret",
+        "cluster",
+        "cmprsk",
+        "coda",
+        "covr",
+        "drc",
+        "e1071",
+        "emmeans",
+        "epiR (>= 2.0.85)",
+        "ergm (>= 3.10.4)",
+        "fixest (>= 0.9.0)",
+        "gam (>= 1.15)",
+        "gee",
+        "geepack",
+        "ggplot2",
+        "glmnet",
+        "glmnetUtils",
+        "gmm",
+        "Hmisc",
+        "interp",
+        "irlba",
+        "joineRML",
+        "Kendall",
+        "knitr",
+        "ks",
+        "Lahman",
+        "lavaan (>= 0.6.18)",
+        "leaps",
+        "lfe",
+        "lm.beta",
+        "lme4",
+        "lmodel2",
+        "lmtest (>= 0.9.38)",
+        "lsmeans",
+        "maps",
+        "margins",
+        "MASS",
+        "mclust",
+        "mediation",
+        "metafor",
+        "mfx",
+        "mgcv",
+        "mlogit",
+        "modeldata",
+        "modeltests (>= 0.1.6)",
+        "muhaz",
+        "multcomp",
+        "network",
+        "nnet",
+        "ordinal",
+        "plm",
+        "poLCA",
+        "psych",
+        "quantreg",
+        "rmarkdown",
+        "robust",
+        "robustbase",
+        "rsample",
+        "sandwich",
+        "spatialreg",
+        "spdep (>= 1.1)",
+        "speedglm",
+        "spelling",
+        "stats4",
+        "survey",
+        "survival (>= 3.6-4)",
+        "systemfit",
+        "testthat (>= 3.0.0)",
+        "tseries",
+        "vars",
+        "zoo"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "bslib": {
+      "Package": "bslib",
+      "Version": "0.10.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Imports": [
+        "base64enc",
+        "cachem",
+        "fastmap (>= 1.1.1)",
+        "grDevices",
+        "htmltools (>= 0.5.8)",
+        "jquerylib (>= 0.1.3)",
+        "jsonlite",
+        "lifecycle",
+        "memoise (>= 2.0.1)",
+        "mime",
+        "rlang",
+        "sass (>= 0.4.9)"
+      ],
+      "Suggests": [
+        "brand.yml",
+        "bsicons",
+        "curl",
+        "fontawesome",
+        "future",
+        "ggplot2",
+        "knitr",
+        "lattice",
+        "magrittr",
+        "rappdirs",
+        "rmarkdown (>= 2.7)",
+        "shiny (>= 1.11.1)",
+        "testthat",
+        "thematic",
+        "tools",
+        "utils",
+        "withr",
+        "yaml"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "cachem": {
+      "Package": "cachem",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Imports": [
+        "rlang",
+        "fastmap (>= 1.2.0)"
+      ],
+      "Suggests": [
+        "testthat"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "checkmate": {
+      "Package": "checkmate",
+      "Version": "2.3.4",
+      "Source": "Repository",
+      "NeedsCompilation": "yes",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "Imports": [
+        "backports (>= 1.1.0)",
+        "utils"
+      ],
+      "Suggests": [
+        "R6",
+        "fastmatch",
+        "data.table (>= 1.9.8)",
+        "devtools",
+        "ggplot2",
+        "knitr",
+        "magrittr",
+        "microbenchmark",
+        "rmarkdown",
+        "testthat (>= 3.0.4)",
+        "tinytest (>= 1.1.0)",
+        "tibble"
+      ],
+      "Repository": "CRAN"
+    },
+    "class": {
+      "Package": "class",
+      "Version": "7.3-23",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)",
+        "stats",
+        "utils"
+      ],
+      "Imports": [
+        "MASS"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "cli": {
+      "Package": "cli",
+      "Version": "3.6.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4)"
+      ],
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "callr",
+        "covr",
+        "crayon",
+        "digest",
+        "glue (>= 1.6.0)",
+        "grDevices",
+        "htmltools",
+        "htmlwidgets",
+        "knitr",
+        "methods",
+        "processx",
+        "ps (>= 1.3.4.9000)",
+        "rlang (>= 1.0.2.9003)",
+        "rmarkdown",
+        "rprojroot",
+        "rstudioapi",
+        "testthat (>= 3.2.0)",
+        "tibble",
+        "whoami",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "clipr": {
+      "Package": "clipr",
+      "Version": "0.8.0",
+      "Source": "Repository",
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "rmarkdown",
+        "rstudioapi (>= 0.5)",
+        "testthat (>= 2.0.0)"
+      ],
+      "SystemRequirements": "xclip (https://github.com/astrand/xclip) or xsel (http://www.vergenet.net/~conrad/software/xsel/) for accessing the X11 clipboard, or wl-clipboard (https://github.com/bugaevc/wl-clipboard) for systems using Wayland.",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "clock": {
+      "Package": "clock",
+      "Version": "0.7.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Imports": [
+        "cli (>= 3.6.4)",
+        "lifecycle (>= 1.0.4)",
+        "rlang (>= 1.1.5)",
+        "tzdb (>= 0.5.0)",
+        "vctrs (>= 0.6.5)"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "magrittr",
+        "pillar",
+        "rmarkdown",
+        "slider (>= 0.3.2)",
+        "testthat (>= 3.0.0)",
+        "withr"
+      ],
+      "LinkingTo": [
+        "cpp11 (>= 0.5.2)",
+        "tzdb (>= 0.5.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "cluster": {
+      "Package": "cluster",
+      "Version": "2.1.8.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "graphics",
+        "grDevices",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "MASS",
+        "Matrix"
+      ],
+      "Enhances": [
+        "mvoutlier",
+        "fpc",
+        "ellipse",
+        "sfsmisc"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "cocor": {
+      "Package": "cocor",
+      "Version": "1.1-4",
+      "Source": "Repository",
+      "Depends": [
+        "methods"
+      ],
+      "Suggests": [
+        "testthat"
+      ],
+      "Enhances": [
+        "rkward"
+      ],
+      "Imports": [
+        "stats"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-20",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.1)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "colorspace": {
+      "Package": "colorspace",
+      "Version": "2.1-2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)",
+        "methods"
+      ],
+      "Imports": [
+        "graphics",
+        "grDevices",
+        "stats"
+      ],
+      "Suggests": [
+        "datasets",
+        "utils",
+        "KernSmooth",
+        "MASS",
+        "kernlab",
+        "mvtnorm",
+        "vcd",
+        "tcltk",
+        "shiny",
+        "shinyjs",
+        "ggplot2",
+        "dplyr",
+        "scales",
+        "grid",
+        "png",
+        "jpeg",
+        "knitr",
+        "rmarkdown",
+        "RColorBrewer",
+        "rcartocolor",
+        "scico",
+        "viridis",
+        "wesanderson"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "corpcor": {
+      "Package": "corpcor",
+      "Version": "1.6.10",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.2)"
+      ],
+      "Imports": [
+        "stats"
+      ],
+      "Suggests": [],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "corrplot": {
+      "Package": "corrplot",
+      "Version": "0.95",
+      "Source": "Repository",
+      "Suggests": [
+        "seriation",
+        "knitr",
+        "RColorBrewer",
+        "rmarkdown",
+        "magrittr",
+        "prettydoc",
+        "testthat"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "cpp11": {
+      "Package": "cpp11",
+      "Version": "0.5.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Suggests": [
+        "bench",
+        "brio",
+        "callr",
+        "cli",
+        "covr",
+        "decor",
+        "desc",
+        "ggplot2",
+        "glue",
+        "knitr",
+        "lobstr",
+        "mockery",
+        "progress",
+        "rmarkdown",
+        "scales",
+        "Rcpp",
+        "testthat (>= 3.2.0)",
+        "tibble",
+        "utils",
+        "vctrs",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "crayon": {
+      "Package": "crayon",
+      "Version": "1.5.3",
+      "Source": "Repository",
+      "Imports": [
+        "grDevices",
+        "methods",
+        "utils"
+      ],
+      "Suggests": [
+        "mockery",
+        "rstudioapi",
+        "testthat",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "data.table": {
+      "Package": "data.table",
+      "Version": "1.17.8",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.3.0)"
+      ],
+      "Imports": [
+        "methods"
+      ],
+      "Suggests": [
+        "bit64 (>= 4.0.0)",
+        "bit (>= 4.0.4)",
+        "R.utils",
+        "xts",
+        "zoo (>= 1.8-1)",
+        "yaml",
+        "knitr",
+        "markdown"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "diagram": {
+      "Package": "diagram",
+      "Version": "1.6.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.01)",
+        "shape"
+      ],
+      "Imports": [
+        "stats",
+        "graphics"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "digest": {
+      "Package": "digest",
+      "Version": "0.6.37",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.3.0)"
+      ],
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "tinytest",
+        "simplermarkdown"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "doParallel": {
+      "Package": "doParallel",
+      "Version": "1.0.17",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.14.0)",
+        "foreach (>= 1.2.0)",
+        "iterators (>= 1.0.0)",
+        "parallel",
+        "utils"
+      ],
+      "Suggests": [
+        "caret",
+        "mlbench",
+        "rpart",
+        "RUnit"
+      ],
+      "Enhances": [
+        "compiler"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.1.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "cli (>= 3.4.0)",
+        "generics",
+        "glue (>= 1.3.2)",
+        "lifecycle (>= 1.0.3)",
+        "magrittr (>= 1.5)",
+        "methods",
+        "pillar (>= 1.9.0)",
+        "R6",
+        "rlang (>= 1.1.0)",
+        "tibble (>= 3.2.0)",
+        "tidyselect (>= 1.2.0)",
+        "utils",
+        "vctrs (>= 0.6.4)"
+      ],
+      "Suggests": [
+        "bench",
+        "broom",
+        "callr",
+        "covr",
+        "DBI",
+        "dbplyr (>= 2.2.1)",
+        "ggplot2",
+        "knitr",
+        "Lahman",
+        "lobstr",
+        "microbenchmark",
+        "nycflights13",
+        "purrr",
+        "rmarkdown",
+        "RMySQL",
+        "RPostgreSQL",
+        "RSQLite",
+        "stringi (>= 1.7.6)",
+        "testthat (>= 3.1.5)",
+        "tidyr (>= 1.3.0)",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "e1071": {
+      "Package": "e1071",
+      "Version": "1.7-17",
+      "Source": "Repository",
+      "Imports": [
+        "graphics",
+        "grDevices",
+        "class",
+        "stats",
+        "methods",
+        "utils",
+        "proxy"
+      ],
+      "Suggests": [
+        "cluster",
+        "mlbench",
+        "nnet",
+        "randomForest",
+        "rpart",
+        "SparseM",
+        "xtable",
+        "Matrix",
+        "MASS",
+        "slam"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "eigenmodel": {
+      "Package": "eigenmodel",
+      "Version": "1.12",
+      "Source": "Repository",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "ellipse": {
+      "Package": "ellipse",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.0.0)",
+        "graphics",
+        "stats"
+      ],
+      "Suggests": [
+        "MASS"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "evaluate": {
+      "Package": "evaluate",
+      "Version": "1.0.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Suggests": [
+        "callr",
+        "covr",
+        "ggplot2 (>= 3.3.6)",
+        "lattice",
+        "methods",
+        "pkgload",
+        "ragg (>= 1.4.0)",
+        "rlang (>= 1.1.5)",
+        "knitr",
+        "testthat (>= 3.0.0)",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "farver": {
+      "Package": "farver",
+      "Version": "2.1.2",
+      "Source": "Repository",
+      "Suggests": [
+        "covr",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "fastmap": {
+      "Package": "fastmap",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Suggests": [
+        "testthat (>= 2.1.1)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "fdrtool": {
+      "Package": "fdrtool",
+      "Version": "1.2.18",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Suggests": [],
+      "Imports": [
+        "graphics",
+        "grDevices",
+        "stats"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "fontawesome": {
+      "Package": "fontawesome",
+      "Version": "0.5.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.3.0)"
+      ],
+      "Imports": [
+        "rlang (>= 1.0.6)",
+        "htmltools (>= 0.5.1.1)"
+      ],
+      "Suggests": [
+        "covr",
+        "dplyr (>= 1.0.8)",
+        "gt (>= 0.9.0)",
+        "knitr (>= 1.31)",
+        "testthat (>= 3.0.0)",
+        "rsvg"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "forcats": {
+      "Package": "forcats",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli (>= 3.4.0)",
+        "glue",
+        "lifecycle",
+        "magrittr",
+        "rlang (>= 1.0.0)",
+        "tibble"
+      ],
+      "Suggests": [
+        "covr",
+        "dplyr",
+        "ggplot2",
+        "knitr",
+        "readr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "foreach": {
+      "Package": "foreach",
+      "Version": "1.5.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.5.0)"
+      ],
+      "Imports": [
+        "codetools",
+        "utils",
+        "iterators"
+      ],
+      "Suggests": [
+        "randomForest",
+        "doMC",
+        "doParallel",
+        "testthat",
+        "knitr",
+        "rmarkdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "foreign": {
+      "Package": "foreign",
+      "Version": "0.8-90",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Imports": [
+        "methods",
+        "utils",
+        "stats"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "fs": {
+      "Package": "fs",
+      "Version": "2.0.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "methods"
+      ],
+      "Suggests": [
+        "covr",
+        "crayon",
+        "knitr",
+        "pillar (>= 1.0.0)",
+        "rmarkdown",
+        "spelling",
+        "testthat (>= 3.0.0)",
+        "tibble (>= 1.1.0)",
+        "vctrs (>= 0.3.0)",
+        "withr"
+      ],
+      "SystemRequirements": "libuv: libuv-devel (rpm) or libuv1-dev (deb). Alternatively to build the vendored libuv 'cmake' is required. GNU make.",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "furrr": {
+      "Package": "furrr",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Depends": [
+        "future (>= 1.25.0)",
+        "R (>= 3.4.0)"
+      ],
+      "Imports": [
+        "globals (>= 0.14.0)",
+        "lifecycle (>= 1.0.1)",
+        "purrr (>= 0.3.4)",
+        "rlang (>= 1.0.2)",
+        "vctrs (>= 0.4.1)"
+      ],
+      "Suggests": [
+        "carrier",
+        "covr",
+        "dplyr (>= 0.7.4)",
+        "knitr",
+        "listenv (>= 0.6.0)",
+        "magrittr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tidyselect",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "future": {
+      "Package": "future",
+      "Version": "1.70.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.2.0)"
+      ],
+      "Imports": [
+        "digest",
+        "globals (>= 0.18.0)",
+        "listenv (>= 0.8.0)",
+        "parallel",
+        "parallelly (>= 1.44.0)",
+        "tools",
+        "utils"
+      ],
+      "Suggests": [
+        "methods",
+        "RhpcBLASctl",
+        "R.rsp",
+        "markdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "future.apply": {
+      "Package": "future.apply",
+      "Version": "1.20.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.2.0)",
+        "future (>= 1.49.0)"
+      ],
+      "Imports": [
+        "globals",
+        "parallel",
+        "utils"
+      ],
+      "Suggests": [
+        "datasets",
+        "stats",
+        "tools",
+        "listenv",
+        "R.rsp",
+        "markdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "gdata": {
+      "Package": "gdata",
+      "Version": "3.0.1",
+      "Source": "Repository",
+      "Imports": [
+        "gtools",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "RUnit"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "generics": {
+      "Package": "generics",
+      "Version": "0.1.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Imports": [
+        "methods"
+      ],
+      "Suggests": [
+        "covr",
+        "pkgload",
+        "testthat (>= 3.0.0)",
+        "tibble",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "ggplot2": {
+      "Package": "ggplot2",
+      "Version": "4.0.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli",
+        "grDevices",
+        "grid",
+        "gtable (>= 0.3.6)",
+        "isoband",
+        "lifecycle (> 1.0.1)",
+        "rlang (>= 1.1.0)",
+        "S7",
+        "scales (>= 1.4.0)",
+        "stats",
+        "vctrs (>= 0.6.0)",
+        "withr (>= 2.5.0)"
+      ],
+      "Suggests": [
+        "broom",
+        "covr",
+        "dplyr",
+        "ggplot2movies",
+        "hexbin",
+        "Hmisc",
+        "hms",
+        "knitr",
+        "mapproj",
+        "maps",
+        "MASS",
+        "mgcv",
+        "multcomp",
+        "munsell",
+        "nlme",
+        "profvis",
+        "quantreg",
+        "quarto",
+        "ragg (>= 1.2.6)",
+        "RColorBrewer",
+        "roxygen2",
+        "rpart",
+        "sf (>= 0.7-3)",
+        "svglite (>= 2.1.2)",
+        "testthat (>= 3.1.5)",
+        "tibble",
+        "vdiffr (>= 1.0.6)",
+        "xml2"
+      ],
+      "Enhances": [
+        "sp"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "glasso": {
+      "Package": "glasso",
+      "Version": "1.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "NeedsCompilation": "yes"
+    },
+    "glassoFast": {
+      "Package": "glassoFast",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Suggests": [
+        "glasso",
+        "rbenchmark"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "glmnet": {
+      "Package": "glmnet",
+      "Version": "4.1-10",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)",
+        "Matrix (>= 1.0-6)"
+      ],
+      "Imports": [
+        "methods",
+        "utils",
+        "foreach",
+        "shape",
+        "survival",
+        "Rcpp"
+      ],
+      "Suggests": [
+        "knitr",
+        "lars",
+        "testthat",
+        "xfun",
+        "rmarkdown"
+      ],
+      "SystemRequirements": "C++17",
+      "LinkingTo": [
+        "RcppEigen",
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "globals": {
+      "Package": "globals",
+      "Version": "0.19.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.1.2)"
+      ],
+      "Imports": [
+        "codetools"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "glue": {
+      "Package": "glue",
+      "Version": "1.8.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Imports": [
+        "methods"
+      ],
+      "Suggests": [
+        "crayon",
+        "DBI (>= 1.2.0)",
+        "dplyr",
+        "knitr",
+        "magrittr",
+        "rlang",
+        "rmarkdown",
+        "RSQLite",
+        "testthat (>= 3.2.0)",
+        "vctrs (>= 0.3.0)",
+        "waldo (>= 0.5.3)",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "gower": {
+      "Package": "gower",
+      "Version": "1.0.2",
+      "Source": "Repository",
+      "Suggests": [
+        "tinytest (>= 0.9.3)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "gridExtra": {
+      "Package": "gridExtra",
+      "Version": "2.3",
+      "Source": "Repository",
+      "Imports": [
+        "gtable",
+        "grid",
+        "grDevices",
+        "graphics",
+        "utils"
+      ],
+      "Suggests": [
+        "ggplot2",
+        "egg",
+        "lattice",
+        "knitr",
+        "testthat"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "gtable": {
+      "Package": "gtable",
+      "Version": "0.3.6",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0)"
+      ],
+      "Imports": [
+        "cli",
+        "glue",
+        "grid",
+        "lifecycle",
+        "rlang (>= 1.1.0)",
+        "stats"
+      ],
+      "Suggests": [
+        "covr",
+        "ggplot2",
+        "knitr",
+        "profvis",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "gtools": {
+      "Package": "gtools",
+      "Version": "3.9.5",
+      "Source": "Repository",
+      "Depends": [
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "car",
+        "gplots",
+        "knitr",
+        "rstudioapi",
+        "SGP",
+        "taxize"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "hardhat": {
+      "Package": "hardhat",
+      "Version": "1.4.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli (>= 3.6.0)",
+        "glue (>= 1.6.2)",
+        "rlang (>= 1.1.0)",
+        "sparsevctrs (>= 0.2.0)",
+        "tibble (>= 3.2.1)",
+        "vctrs (>= 0.6.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "crayon",
+        "devtools",
+        "knitr",
+        "Matrix",
+        "modeldata (>= 0.0.2)",
+        "recipes (>= 1.0.5)",
+        "rmarkdown (>= 2.3)",
+        "roxygen2",
+        "testthat (>= 3.0.0)",
+        "usethis (>= 2.1.5)",
+        "withr (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "haven": {
+      "Package": "haven",
+      "Version": "2.5.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Imports": [
+        "cli (>= 3.0.0)",
+        "forcats (>= 0.2.0)",
+        "hms",
+        "lifecycle",
+        "methods",
+        "readr (>= 0.1.0)",
+        "rlang (>= 0.4.0)",
+        "tibble",
+        "tidyselect",
+        "vctrs (>= 0.3.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "crayon",
+        "fs",
+        "knitr",
+        "pillar (>= 1.4.0)",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "utf8"
+      ],
+      "LinkingTo": [
+        "cpp11"
+      ],
+      "SystemRequirements": "GNU make, zlib: zlib1g-dev (deb), zlib-devel (rpm)",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "highr": {
+      "Package": "highr",
+      "Version": "0.12",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.3.0)"
+      ],
+      "Imports": [
+        "xfun (>= 0.18)"
+      ],
+      "Suggests": [
+        "knitr",
+        "markdown",
+        "testit"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "hms": {
+      "Package": "hms",
+      "Version": "1.1.4",
+      "Source": "Repository",
+      "Imports": [
+        "cli",
+        "lifecycle",
+        "methods",
+        "pkgconfig",
+        "rlang (>= 1.0.2)",
+        "vctrs (>= 0.3.8)"
+      ],
+      "Suggests": [
+        "crayon",
+        "lubridate",
+        "pillar (>= 1.1.0)",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "htmlTable": {
+      "Package": "htmlTable",
+      "Version": "2.4.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "stringr",
+        "knitr (>= 1.6)",
+        "magrittr (>= 1.5)",
+        "methods",
+        "checkmate",
+        "htmlwidgets",
+        "htmltools",
+        "rstudioapi (>= 0.6)"
+      ],
+      "Suggests": [
+        "testthat",
+        "XML",
+        "xml2",
+        "Hmisc",
+        "rmarkdown",
+        "chron",
+        "lubridate",
+        "tibble",
+        "purrr",
+        "tidyselect",
+        "glue",
+        "rlang",
+        "tidyr (>= 0.7.2)",
+        "dplyr (>= 0.7.4)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "htmltools": {
+      "Package": "htmltools",
+      "Version": "0.5.9",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.14.1)"
+      ],
+      "Imports": [
+        "base64enc",
+        "digest",
+        "fastmap (>= 1.1.0)",
+        "grDevices",
+        "rlang (>= 1.0.0)",
+        "utils"
+      ],
+      "Suggests": [
+        "Cairo",
+        "markdown",
+        "ragg",
+        "shiny",
+        "testthat",
+        "withr"
+      ],
+      "Enhances": [
+        "knitr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "htmlwidgets": {
+      "Package": "htmlwidgets",
+      "Version": "1.6.4",
+      "Source": "Repository",
+      "Imports": [
+        "grDevices",
+        "htmltools (>= 0.5.7)",
+        "jsonlite (>= 0.9.16)",
+        "knitr (>= 1.8)",
+        "rmarkdown",
+        "yaml"
+      ],
+      "Suggests": [
+        "testthat"
+      ],
+      "Enhances": [
+        "shiny (>= 1.1)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "igraph": {
+      "Package": "igraph",
+      "Version": "2.2.2",
+      "Source": "Repository",
+      "Depends": [
+        "methods",
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "cli",
+        "graphics",
+        "grDevices",
+        "lifecycle",
+        "magrittr",
+        "Matrix",
+        "pkgconfig (>= 2.0.0)",
+        "rlang (>= 1.1.0)",
+        "stats",
+        "utils",
+        "vctrs"
+      ],
+      "Suggests": [
+        "ape (>= 5.7-0.1)",
+        "callr",
+        "decor",
+        "digest",
+        "igraphdata",
+        "knitr",
+        "rgl (>= 1.3.14)",
+        "rmarkdown",
+        "scales",
+        "stats4",
+        "tcltk",
+        "testthat",
+        "vdiffr",
+        "withr"
+      ],
+      "Enhances": [
+        "graph"
+      ],
+      "LinkingTo": [
+        "cpp11 (>= 0.5.0)"
+      ],
+      "SystemRequirements": "libxml2 (optional), glpk (>= 4.57, optional)",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "ipred": {
+      "Package": "ipred",
+      "Version": "0.9-15",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Imports": [
+        "rpart (>= 3.1-8)",
+        "MASS",
+        "survival",
+        "nnet",
+        "class",
+        "prodlim"
+      ],
+      "Suggests": [
+        "mvtnorm",
+        "mlbench",
+        "TH.data",
+        "randomForest",
+        "party"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "isoband": {
+      "Package": "isoband",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Imports": [
+        "cli",
+        "grid",
+        "rlang",
+        "utils"
+      ],
+      "Suggests": [
+        "covr",
+        "ggplot2",
+        "knitr",
+        "magick",
+        "bench",
+        "rmarkdown",
+        "sf",
+        "testthat (>= 3.0.0)",
+        "xml2"
+      ],
+      "LinkingTo": [
+        "cpp11"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "iterators": {
+      "Package": "iterators",
+      "Version": "1.0.14",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.5.0)",
+        "utils"
+      ],
+      "Suggests": [
+        "RUnit",
+        "foreach"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "janitor": {
+      "Package": "janitor",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.1.2)"
+      ],
+      "Imports": [
+        "dplyr (>= 1.0.0)",
+        "hms",
+        "lifecycle",
+        "lubridate",
+        "magrittr",
+        "purrr",
+        "rlang",
+        "stringi",
+        "stringr",
+        "snakecase (>= 0.9.2)",
+        "tidyselect (>= 1.0.0)",
+        "tidyr (>= 0.7.0)"
+      ],
+      "Suggests": [
+        "dbplyr",
+        "knitr",
+        "rmarkdown",
+        "RSQLite",
+        "sf",
+        "testthat (>= 3.0.0)",
+        "tibble",
+        "tidygraph"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "jomo": {
+      "Package": "jomo",
+      "Version": "2.7-6",
+      "Source": "Repository",
+      "Suggests": [
+        "mitml"
+      ],
+      "Imports": [
+        "stats",
+        "lme4",
+        "survival",
+        "MASS",
+        "ordinal",
+        "tibble"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "jpeg": {
+      "Package": "jpeg",
+      "Version": "0.1-11",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.9.0)"
+      ],
+      "SystemRequirements": "libjpeg",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "jquerylib": {
+      "Package": "jquerylib",
+      "Version": "0.1.4",
+      "Source": "Repository",
+      "Imports": [
+        "htmltools"
+      ],
+      "Suggests": [
+        "testthat"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "jsonlite": {
+      "Package": "jsonlite",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Depends": [
+        "methods"
+      ],
+      "Suggests": [
+        "httr",
+        "vctrs",
+        "testthat",
+        "knitr",
+        "rmarkdown",
+        "R.rsp",
+        "sf"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "knitr": {
+      "Package": "knitr",
+      "Version": "1.51",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "evaluate (>= 0.15)",
+        "highr (>= 0.11)",
+        "methods",
+        "tools",
+        "xfun (>= 0.52)",
+        "yaml (>= 2.1.19)"
+      ],
+      "Suggests": [
+        "bslib",
+        "DBI (>= 0.4-1)",
+        "digest",
+        "formatR",
+        "gifski",
+        "gridSVG",
+        "htmlwidgets (>= 0.7)",
+        "jpeg",
+        "JuliaCall (>= 0.11.1)",
+        "magick",
+        "litedown",
+        "markdown (>= 1.3)",
+        "otel",
+        "otelsdk",
+        "png",
+        "ragg",
+        "reticulate (>= 1.4)",
+        "rgl (>= 0.95.1201)",
+        "rlang",
+        "rmarkdown",
+        "sass",
+        "showtext",
+        "styler (>= 1.2.0)",
+        "targets (>= 0.6.0)",
+        "testit",
+        "tibble",
+        "tikzDevice (>= 0.10)",
+        "tinytex (>= 0.56)",
+        "webshot",
+        "rstudioapi",
+        "svglite"
+      ],
+      "SystemRequirements": "Package vignettes based on R Markdown v2 or reStructuredText require Pandoc (http://pandoc.org). The function rst2pdf() requires rst2pdf (https://github.com/rst2pdf/rst2pdf).",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "labeling": {
+      "Package": "labeling",
+      "Version": "0.4.3",
+      "Source": "Repository",
+      "NeedsCompilation": "no",
+      "Imports": [
+        "stats",
+        "graphics"
+      ],
+      "Repository": "CRAN"
+    },
+    "lattice": {
+      "Package": "lattice",
+      "Version": "0.22-7",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Suggests": [
+        "KernSmooth",
+        "MASS",
+        "latticeExtra",
+        "colorspace"
+      ],
+      "Imports": [
+        "grid",
+        "grDevices",
+        "graphics",
+        "stats",
+        "utils"
+      ],
+      "Enhances": [
+        "chron",
+        "zoo"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "lava": {
+      "Package": "lava",
+      "Version": "1.8.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0)"
+      ],
+      "Imports": [
+        "cli",
+        "future.apply",
+        "graphics",
+        "grDevices",
+        "methods",
+        "numDeriv",
+        "progressr",
+        "stats",
+        "survival",
+        "SQUAREM",
+        "utils"
+      ],
+      "Suggests": [
+        "KernSmooth",
+        "Rgraphviz",
+        "data.table",
+        "ellipse",
+        "fields",
+        "geepack",
+        "graph",
+        "knitr",
+        "rmarkdown",
+        "igraph (>= 0.6)",
+        "lavaSearch2",
+        "lme4 (>= 1.1.35.1)",
+        "MASS",
+        "Matrix (>= 1.6.3)",
+        "mets (>= 1.1)",
+        "nlme",
+        "optimx",
+        "polycor",
+        "quantreg",
+        "rgl",
+        "targeted (>= 0.4)",
+        "testthat (>= 0.11)",
+        "visNetwork"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "lavaan": {
+      "Package": "lavaan",
+      "Version": "0.6-21",
+      "Source": "Repository",
+      "Depends": [
+        "R(>= 3.4)"
+      ],
+      "Imports": [
+        "methods",
+        "stats4",
+        "stats",
+        "utils",
+        "graphics",
+        "MASS",
+        "mnormt",
+        "pbivnorm",
+        "numDeriv",
+        "quadprog"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "lifecycle": {
+      "Package": "lifecycle",
+      "Version": "1.0.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Imports": [
+        "cli (>= 3.4.0)",
+        "rlang (>= 1.1.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "lintr (>= 3.1.0)",
+        "rmarkdown",
+        "testthat (>= 3.0.1)",
+        "tibble",
+        "tidyverse",
+        "tools",
+        "vctrs",
+        "withr",
+        "xml2"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "listenv": {
+      "Package": "listenv",
+      "Version": "0.10.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.1.2)"
+      ],
+      "Suggests": [
+        "R.utils",
+        "R.rsp",
+        "markdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "lme4": {
+      "Package": "lme4",
+      "Version": "2.0-1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)",
+        "Matrix",
+        "methods",
+        "stats"
+      ],
+      "LinkingTo": [
+        "Matrix (>= 1.5-0)",
+        "Rcpp (>= 0.10.5)",
+        "RcppEigen (>= 0.3.3.9.4)"
+      ],
+      "Imports": [
+        "MASS",
+        "Rdpack",
+        "boot",
+        "graphics",
+        "grid",
+        "lattice",
+        "minqa (>= 1.1.15)",
+        "nlme (>= 3.1-123)",
+        "nloptr (>= 1.0.4)",
+        "parallel",
+        "reformulas (>= 0.4.3.1)",
+        "rlang",
+        "splines",
+        "utils"
+      ],
+      "Suggests": [
+        "HSAUR3",
+        "MEMSS",
+        "car",
+        "dfoptim",
+        "gamm4",
+        "ggplot2",
+        "glmmTMB",
+        "knitr",
+        "merDeriv",
+        "mgcv",
+        "mlmRev",
+        "numDeriv",
+        "optimx (>= 2013.8.6)",
+        "pbkrtest",
+        "rmarkdown",
+        "rr2",
+        "semEff",
+        "statmod",
+        "testthat (>= 0.8.1)",
+        "tibble"
+      ],
+      "Enhances": [
+        "DHARMa",
+        "performance"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.9.4",
+      "Source": "Repository",
+      "Depends": [
+        "methods",
+        "R (>= 3.2)"
+      ],
+      "Imports": [
+        "generics",
+        "timechange (>= 0.3.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 2.1.0)",
+        "vctrs (>= 0.6.5)"
+      ],
+      "Enhances": [
+        "chron",
+        "data.table",
+        "timeDate",
+        "tis",
+        "zoo"
+      ],
+      "SystemRequirements": "C++11, A system with zoneinfo data (e.g. /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "magrittr": {
+      "Package": "magrittr",
+      "Version": "2.0.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "rlang",
+        "rmarkdown",
+        "testthat"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "mantar": {
+      "Package": "mantar",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1.0)"
+      ],
+      "Imports": [
+        "Rdpack",
+        "mathjaxr",
+        "stats",
+        "Matrix",
+        "glassoFast"
+      ],
+      "Suggests": [
+        "numDeriv",
+        "mice",
+        "lavaan",
+        "qgraph",
+        "testthat (>= 3.0.0)",
+        "knitr",
+        "rmarkdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "mathjaxr": {
+      "Package": "mathjaxr",
+      "Version": "2.0-0",
+      "Source": "Repository",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "memoise": {
+      "Package": "memoise",
+      "Version": "2.0.1",
+      "Source": "Repository",
+      "Imports": [
+        "rlang (>= 0.4.10)",
+        "cachem"
+      ],
+      "Suggests": [
+        "digest",
+        "aws.s3",
+        "covr",
+        "googleAuthR",
+        "googleCloudStorageR",
+        "httr",
+        "testthat"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "mgm": {
+      "Package": "mgm",
+      "Version": "1.2-15",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "glmnet",
+        "stringr",
+        "Hmisc",
+        "qgraph",
+        "gtools"
+      ],
+      "Suggests": [
+        "testthat (>= 2.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "mice": {
+      "Package": "mice",
+      "Version": "3.19.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.10.0)"
+      ],
+      "Imports": [
+        "broom",
+        "dplyr",
+        "glmnet",
+        "graphics",
+        "grDevices",
+        "lattice",
+        "mitml",
+        "nnet",
+        "Rcpp",
+        "rpart",
+        "stats",
+        "tidyr",
+        "utils"
+      ],
+      "Suggests": [
+        "broom.mixed",
+        "future",
+        "furrr",
+        "haven",
+        "knitr",
+        "literanger",
+        "lme4",
+        "MASS",
+        "miceadds",
+        "pan",
+        "parallelly",
+        "purrr",
+        "ranger",
+        "randomForest",
+        "rmarkdown",
+        "rstan",
+        "survival",
+        "testthat"
+      ],
+      "LinkingTo": [
+        "cpp11",
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "mime": {
+      "Package": "mime",
+      "Version": "0.13",
+      "Source": "Repository",
+      "Imports": [
+        "tools"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "minqa": {
+      "Package": "minqa",
+      "Version": "1.2.8",
+      "Source": "Repository",
+      "Imports": [
+        "Rcpp (>= 0.9.10)"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "SystemRequirements": "GNU make",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "mitml": {
+      "Package": "mitml",
+      "Version": "0.4-5",
+      "Source": "Repository",
+      "Imports": [
+        "pan",
+        "jomo",
+        "haven",
+        "grDevices",
+        "graphics",
+        "stats",
+        "methods",
+        "utils"
+      ],
+      "Suggests": [
+        "mice",
+        "miceadds",
+        "Amelia",
+        "lme4",
+        "nlme",
+        "lavaan",
+        "geepack",
+        "glmmTMB",
+        "survival",
+        "knitr",
+        "rmarkdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "mnormt": {
+      "Package": "mnormt",
+      "Version": "2.1.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "mvtnorm": {
+      "Package": "mvtnorm",
+      "Version": "1.3-6",
+      "Source": "Repository",
+      "Imports": [
+        "stats"
+      ],
+      "Depends": [
+        "R(>= 3.5.0)"
+      ],
+      "Suggests": [
+        "qrng",
+        "numDeriv",
+        "bibtex"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "networktools": {
+      "Package": "networktools",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "Imports": [
+        "qgraph",
+        "igraph",
+        "reshape2",
+        "ggplot2",
+        "gridExtra",
+        "stats",
+        "graphics",
+        "utils",
+        "cocor",
+        "RColorBrewer",
+        "R.utils",
+        "eigenmodel",
+        "psych",
+        "smacof",
+        "wordcloud"
+      ],
+      "Suggests": [
+        "dplyr",
+        "testthat"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "nlme": {
+      "Package": "nlme",
+      "Version": "3.1-168",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "graphics",
+        "stats",
+        "utils",
+        "lattice"
+      ],
+      "Suggests": [
+        "MASS",
+        "SASmixed"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "nloptr": {
+      "Package": "nloptr",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "SystemRequirements": "cmake (>= 3.2.0) which is used only on Linux or macOS systems when no system build of nlopt (>= 2.7.0) can be found.",
+      "Suggests": [
+        "knitr",
+        "rmarkdown",
+        "covr",
+        "tinytest"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "nnet": {
+      "Package": "nnet",
+      "Version": "7.3-20",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "MASS"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "nnls": {
+      "Package": "nnls",
+      "Version": "1.6",
+      "Source": "Repository",
+      "Suggests": [
+        "bvls",
+        "quadprog"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "numDeriv": {
+      "Package": "numDeriv",
+      "Version": "2016.8-1.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.11.1)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "ordinal": {
+      "Package": "ordinal",
+      "Version": "2025.12-29",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.13.0)",
+        "stats",
+        "methods"
+      ],
+      "Imports": [
+        "ucminf",
+        "MASS",
+        "Matrix",
+        "numDeriv",
+        "nlme"
+      ],
+      "Suggests": [
+        "lme4",
+        "nnet",
+        "xtable",
+        "testthat (>= 0.8)",
+        "tools"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "pROC": {
+      "Package": "pROC",
+      "Version": "1.19.0.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.14)"
+      ],
+      "Imports": [
+        "methods",
+        "Rcpp (>= 0.11.1)"
+      ],
+      "Suggests": [
+        "tcltk",
+        "MASS",
+        "logcondens",
+        "testthat",
+        "vdiffr",
+        "ggplot2",
+        "rlang"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "pan": {
+      "Package": "pan",
+      "Version": "1.9",
+      "Source": "Repository",
+      "Suggests": [
+        "mitools",
+        "lme4"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "parallelly": {
+      "Package": "parallelly",
+      "Version": "1.45.1",
+      "Source": "Repository",
+      "Imports": [
+        "parallel",
+        "tools",
+        "utils"
+      ],
+      "Suggests": [
+        "commonmark",
+        "base64enc"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "pbapply": {
+      "Package": "pbapply",
+      "Version": "1.7-4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.2.0)"
+      ],
+      "Imports": [
+        "parallel"
+      ],
+      "Suggests": [
+        "shiny",
+        "future",
+        "future.apply"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "pbivnorm": {
+      "Package": "pbivnorm",
+      "Version": "0.6.0",
+      "Source": "Repository",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "pillar": {
+      "Package": "pillar",
+      "Version": "1.11.1",
+      "Source": "Repository",
+      "Imports": [
+        "cli (>= 2.3.0)",
+        "glue",
+        "lifecycle",
+        "rlang (>= 1.0.2)",
+        "utf8 (>= 1.1.0)",
+        "utils",
+        "vctrs (>= 0.5.0)"
+      ],
+      "Suggests": [
+        "bit64",
+        "DBI",
+        "debugme",
+        "DiagrammeR",
+        "dplyr",
+        "formattable",
+        "ggplot2",
+        "knitr",
+        "lubridate",
+        "nanotime",
+        "nycflights13",
+        "palmerpenguins",
+        "rmarkdown",
+        "scales",
+        "stringi",
+        "survival",
+        "testthat (>= 3.1.1)",
+        "tibble",
+        "units (>= 0.7.2)",
+        "vdiffr",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "pkgconfig": {
+      "Package": "pkgconfig",
+      "Version": "2.0.3",
+      "Source": "Repository",
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "covr",
+        "testthat",
+        "disposables (>= 1.0.3)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "plotrix": {
+      "Package": "plotrix",
+      "Version": "3.8-14",
+      "Source": "Repository",
+      "Imports": [
+        "grDevices",
+        "graphics",
+        "stats",
+        "utils"
+      ],
+      "NeedsCompilation": "no",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Repository": "CRAN"
+    },
+    "plyr": {
+      "Package": "plyr",
+      "Version": "1.8.9",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.1.0)"
+      ],
+      "Imports": [
+        "Rcpp (>= 0.11.0)"
+      ],
+      "Suggests": [
+        "abind",
+        "covr",
+        "doParallel",
+        "foreach",
+        "iterators",
+        "itertools",
+        "tcltk",
+        "testthat"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "png": {
+      "Package": "png",
+      "Version": "0.1-9",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.9.0)"
+      ],
+      "SystemRequirements": "libpng",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "polynom": {
+      "Package": "polynom",
+      "Version": "1.4-1",
+      "Source": "Repository",
+      "Imports": [
+        "stats",
+        "graphics"
+      ],
+      "NeedsCompilation": "no",
+      "Suggests": [
+        "knitr",
+        "rmarkdown"
+      ],
+      "Repository": "CRAN"
+    },
+    "ppcor": {
+      "Package": "ppcor",
+      "Version": "1.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.6.0)",
+        "MASS"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "prettyunits": {
+      "Package": "prettyunits",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Depends": [
+        "R(>= 2.10)"
+      ],
+      "Suggests": [
+        "codetools",
+        "covr",
+        "testthat"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "prodlim": {
+      "Package": "prodlim",
+      "Version": "2025.04.28",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1.0)"
+      ],
+      "Imports": [
+        "Rcpp (>= 0.11.5)",
+        "stats",
+        "rlang",
+        "data.table",
+        "grDevices",
+        "ggplot2",
+        "graphics",
+        "diagram",
+        "survival",
+        "KernSmooth",
+        "lava"
+      ],
+      "Suggests": [
+        "tibble",
+        "pammtools",
+        "ggthemes"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "progress": {
+      "Package": "progress",
+      "Version": "1.2.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Imports": [
+        "crayon",
+        "hms",
+        "prettyunits",
+        "R6"
+      ],
+      "Suggests": [
+        "Rcpp",
+        "testthat (>= 3.0.0)",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "progressr": {
+      "Package": "progressr",
+      "Version": "0.18.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "digest",
+        "utils"
+      ],
+      "Suggests": [
+        "graphics",
+        "tcltk",
+        "beepr",
+        "cli",
+        "crayon",
+        "pbmcapply",
+        "progress",
+        "purrr",
+        "foreach",
+        "plyr",
+        "doFuture",
+        "future",
+        "future.apply",
+        "furrr",
+        "ntfy",
+        "RPushbullet",
+        "rstudioapi",
+        "shiny",
+        "commonmark",
+        "base64enc",
+        "tools"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "proxy": {
+      "Package": "proxy",
+      "Version": "0.4-29",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Imports": [
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "cba"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "psych": {
+      "Package": "psych",
+      "Version": "2.6.3",
+      "Source": "Repository",
+      "Imports": [
+        "mnormt",
+        "parallel",
+        "stats",
+        "graphics",
+        "grDevices",
+        "methods",
+        "lattice",
+        "nlme",
+        "GPArotation"
+      ],
+      "Suggests": [
+        "psychTools",
+        "lavaan",
+        "lme4",
+        "Rcsdp",
+        "graph",
+        "knitr",
+        "Rgraphviz"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli (>= 3.6.1)",
+        "lifecycle (>= 1.0.3)",
+        "magrittr (>= 1.5.0)",
+        "rlang (>= 1.1.1)",
+        "vctrs (>= 0.6.3)"
+      ],
+      "Suggests": [
+        "carrier (>= 0.2.0)",
+        "covr",
+        "dplyr (>= 0.7.8)",
+        "httr",
+        "knitr",
+        "lubridate",
+        "mirai (>= 2.4.0)",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tibble",
+        "tidyselect"
+      ],
+      "LinkingTo": [
+        "cli"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "pwr": {
+      "Package": "pwr",
+      "Version": "1.3-0",
+      "Source": "Repository",
+      "Imports": [
+        "stats",
+        "graphics"
+      ],
+      "Suggests": [
+        "ggplot2",
+        "scales",
+        "knitr",
+        "rmarkdown"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "qgraph": {
+      "Package": "qgraph",
+      "Version": "1.9.8",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "Imports": [
+        "Rcpp (>= 1.0.0)",
+        "methods",
+        "grDevices",
+        "psych",
+        "lavaan",
+        "plyr",
+        "Hmisc",
+        "igraph",
+        "jpeg",
+        "png",
+        "colorspace",
+        "Matrix",
+        "corpcor",
+        "reshape2",
+        "ggplot2",
+        "glasso",
+        "fdrtool",
+        "gtools",
+        "parallel",
+        "pbapply",
+        "abind"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "Suggests": [
+        "BDgraph",
+        "huge"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "quadprog": {
+      "Package": "quadprog",
+      "Version": "1.5-8",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.1.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "rappdirs": {
+      "Package": "rappdirs",
+      "Version": "0.3.4",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Suggests": [
+        "covr",
+        "roxygen2",
+        "testthat (>= 3.2.0)",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "rbibutils": {
+      "Package": "rbibutils",
+      "Version": "2.4.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Imports": [
+        "utils",
+        "tools"
+      ],
+      "Suggests": [
+        "testthat"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "readr": {
+      "Package": "readr",
+      "Version": "2.2.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli",
+        "clipr",
+        "crayon",
+        "glue",
+        "hms (>= 0.4.1)",
+        "lifecycle",
+        "methods",
+        "R6",
+        "rlang",
+        "tibble",
+        "utils",
+        "vroom (>= 1.7.0)",
+        "withr"
+      ],
+      "Suggests": [
+        "covr",
+        "curl",
+        "datasets",
+        "knitr",
+        "rmarkdown",
+        "spelling",
+        "stringi",
+        "testthat (>= 3.2.0)",
+        "tzdb (>= 0.1.1)",
+        "waldo",
+        "xml2"
+      ],
+      "LinkingTo": [
+        "cpp11",
+        "tzdb (>= 0.1.1)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "recipes": {
+      "Package": "recipes",
+      "Version": "1.3.1",
+      "Source": "Repository",
+      "Depends": [
+        "dplyr (>= 1.1.0)",
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli",
+        "clock (>= 0.6.1)",
+        "generics (>= 0.1.2)",
+        "glue",
+        "gower",
+        "hardhat (>= 1.4.1)",
+        "ipred (>= 0.9-12)",
+        "lifecycle (>= 1.0.3)",
+        "lubridate (>= 1.8.0)",
+        "magrittr",
+        "Matrix",
+        "purrr (>= 1.0.0)",
+        "rlang (>= 1.1.0)",
+        "sparsevctrs (>= 0.3.3)",
+        "stats",
+        "tibble",
+        "tidyr (>= 1.0.0)",
+        "tidyselect (>= 1.2.0)",
+        "timeDate",
+        "utils",
+        "vctrs (>= 0.5.0)",
+        "withr"
+      ],
+      "Suggests": [
+        "covr",
+        "ddalpha",
+        "dials (>= 1.2.0)",
+        "ggplot2",
+        "igraph",
+        "kernlab",
+        "knitr",
+        "methods",
+        "modeldata (>= 0.1.1)",
+        "parsnip (>= 1.2.0)",
+        "RANN",
+        "RcppRoll",
+        "rmarkdown",
+        "rpart",
+        "rsample",
+        "RSpectra",
+        "splines2",
+        "testthat (>= 3.0.0)",
+        "workflows",
+        "xml2"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "reformulas": {
+      "Package": "reformulas",
+      "Version": "0.4.4",
+      "Source": "Repository",
+      "Imports": [
+        "stats",
+        "methods",
+        "Matrix",
+        "Rdpack"
+      ],
+      "Suggests": [
+        "lme4",
+        "tinytest",
+        "glmmTMB",
+        "Formula"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "1.2.4",
+      "Source": "Repository",
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "BiocManager",
+        "cli",
+        "compiler",
+        "covr",
+        "cpp11",
+        "curl",
+        "devtools",
+        "generics",
+        "gitcreds",
+        "jsonlite",
+        "jsonvalidate",
+        "knitr",
+        "miniUI",
+        "modules",
+        "packrat",
+        "pak",
+        "R6",
+        "remotes",
+        "reticulate",
+        "rmarkdown",
+        "rstudioapi",
+        "shiny",
+        "testthat",
+        "uuid",
+        "waldo",
+        "yaml",
+        "webfakes"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "reshape2": {
+      "Package": "reshape2",
+      "Version": "1.4.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.1)"
+      ],
+      "Imports": [
+        "plyr (>= 1.8.1)",
+        "Rcpp",
+        "stringr"
+      ],
+      "Suggests": [
+        "covr",
+        "lattice",
+        "testthat (>= 3.0.0)"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "rlang": {
+      "Package": "rlang",
+      "Version": "1.1.6",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "cli (>= 3.1.0)",
+        "covr",
+        "crayon",
+        "desc",
+        "fs",
+        "glue",
+        "knitr",
+        "magrittr",
+        "methods",
+        "pillar",
+        "pkgload",
+        "rmarkdown",
+        "stats",
+        "testthat (>= 3.2.0)",
+        "tibble",
+        "usethis",
+        "vctrs (>= 0.2.3)",
+        "withr"
+      ],
+      "Enhances": [
+        "winch"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "rmarkdown": {
+      "Package": "rmarkdown",
+      "Version": "2.30",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.0)"
+      ],
+      "Imports": [
+        "bslib (>= 0.2.5.1)",
+        "evaluate (>= 0.13)",
+        "fontawesome (>= 0.5.0)",
+        "htmltools (>= 0.5.1)",
+        "jquerylib",
+        "jsonlite",
+        "knitr (>= 1.43)",
+        "methods",
+        "tinytex (>= 0.31)",
+        "tools",
+        "utils",
+        "xfun (>= 0.36)",
+        "yaml (>= 2.1.19)"
+      ],
+      "Suggests": [
+        "digest",
+        "dygraphs",
+        "fs",
+        "rsconnect",
+        "downlit (>= 0.4.0)",
+        "katex (>= 1.4.0)",
+        "sass (>= 0.4.0)",
+        "shiny (>= 1.6.0)",
+        "testthat (>= 3.0.3)",
+        "tibble",
+        "vctrs",
+        "cleanrmd",
+        "withr (>= 2.4.2)",
+        "xml2"
+      ],
+      "SystemRequirements": "pandoc (>= 1.14) - http://pandoc.org",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "rpart": {
+      "Package": "rpart",
+      "Version": "4.1.24",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.15.0)",
+        "graphics",
+        "stats",
+        "grDevices"
+      ],
+      "Suggests": [
+        "survival"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "rsample": {
+      "Package": "rsample",
+      "Version": "1.3.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli",
+        "dplyr (>= 1.1.1)",
+        "furrr",
+        "generics",
+        "glue",
+        "lifecycle",
+        "methods",
+        "pillar",
+        "purrr (>= 1.0.0)",
+        "rlang (>= 1.1.0)",
+        "slider (>= 0.1.5)",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "vctrs (>= 0.5.0)"
+      ],
+      "Suggests": [
+        "broom",
+        "covr",
+        "ggplot2",
+        "knitr",
+        "modeldata",
+        "recipes (>= 0.1.4)",
+        "rmarkdown",
+        "stats",
+        "testthat (>= 3.0.0)",
+        "utils",
+        "whisker",
+        "withr",
+        "xml2"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "rstudioapi": {
+      "Package": "rstudioapi",
+      "Version": "0.18.0",
+      "Source": "Repository",
+      "Suggests": [
+        "testthat",
+        "knitr",
+        "rmarkdown",
+        "clipr",
+        "covr",
+        "curl",
+        "jsonlite",
+        "withr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "sass": {
+      "Package": "sass",
+      "Version": "0.4.10",
+      "Source": "Repository",
+      "SystemRequirements": "GNU make",
+      "Imports": [
+        "fs (>= 1.2.4)",
+        "rlang (>= 0.4.10)",
+        "htmltools (>= 0.5.1)",
+        "R6",
+        "rappdirs"
+      ],
+      "Suggests": [
+        "testthat",
+        "knitr",
+        "rmarkdown",
+        "withr",
+        "shiny",
+        "curl"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "scales": {
+      "Package": "scales",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli",
+        "farver (>= 2.0.3)",
+        "glue",
+        "labeling",
+        "lifecycle",
+        "R6",
+        "RColorBrewer",
+        "rlang (>= 1.1.0)",
+        "viridisLite"
+      ],
+      "Suggests": [
+        "bit64",
+        "covr",
+        "dichromat",
+        "ggplot2",
+        "hms (>= 0.5.0)",
+        "stringi",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "shape": {
+      "Package": "shape",
+      "Version": "1.4.6.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.01)"
+      ],
+      "Imports": [
+        "stats",
+        "graphics",
+        "grDevices"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "slider": {
+      "Package": "slider",
+      "Version": "0.3.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Imports": [
+        "cli (>= 3.6.1)",
+        "rlang (>= 1.1.1)",
+        "vctrs (>= 0.6.3)",
+        "warp"
+      ],
+      "Suggests": [
+        "covr",
+        "dplyr (>= 1.0.0)",
+        "knitr",
+        "lubridate",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+      ],
+      "LinkingTo": [
+        "vctrs (>= 0.6.3)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "smacof": {
+      "Package": "smacof",
+      "Version": "2.1-7",
+      "Source": "Repository",
+      "Imports": [
+        "graphics",
+        "stats",
+        "polynom",
+        "Hmisc",
+        "nnls",
+        "grDevices",
+        "MASS",
+        "weights",
+        "ellipse",
+        "wordcloud",
+        "parallel",
+        "foreach",
+        "doParallel"
+      ],
+      "Depends": [
+        "R (>= 3.5.0)",
+        "plotrix",
+        "colorspace",
+        "e1071"
+      ],
+      "Suggests": [
+        "knitr",
+        "prefmod",
+        "MPsychoR",
+        "calibrate",
+        "ggplot2",
+        "rmarkdown"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "snakecase": {
+      "Package": "snakecase",
+      "Version": "0.11.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.2)"
+      ],
+      "Imports": [
+        "stringr",
+        "stringi"
+      ],
+      "Suggests": [
+        "testthat",
+        "covr",
+        "tibble",
+        "purrrlyr",
+        "knitr",
+        "rmarkdown",
+        "magrittr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "snow": {
+      "Package": "snow",
+      "Version": "0.4-4",
+      "Source": "Repository",
+      "Suggests": [
+        "rlecuyer"
+      ],
+      "Enhances": [
+        "Rmpi"
+      ],
+      "Depends": [
+        "R (>= 2.13.1)",
+        "utils"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "sparsevctrs": {
+      "Package": "sparsevctrs",
+      "Version": "0.3.6",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "cli (>= 3.4.0)",
+        "rlang (>= 1.1.0)",
+        "vctrs"
+      ],
+      "Suggests": [
+        "knitr",
+        "Matrix",
+        "methods",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tibble",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "stringi": {
+      "Package": "stringi",
+      "Version": "1.8.7",
+      "Source": "Repository",
+      "SystemRequirements": "ICU4C (>= 61, optional)",
+      "Depends": [
+        "R (>= 3.4)"
+      ],
+      "Imports": [
+        "tools",
+        "utils",
+        "stats"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "stringr": {
+      "Package": "stringr",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1.0)"
+      ],
+      "Imports": [
+        "cli",
+        "glue (>= 1.6.1)",
+        "lifecycle (>= 1.0.3)",
+        "magrittr",
+        "rlang (>= 1.0.0)",
+        "stringi (>= 1.5.3)",
+        "vctrs (>= 0.4.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "dplyr",
+        "gt",
+        "htmltools",
+        "htmlwidgets",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tibble"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "survival": {
+      "Package": "survival",
+      "Version": "3.8-3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "graphics",
+        "Matrix",
+        "methods",
+        "splines",
+        "stats",
+        "utils"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "tibble": {
+      "Package": "tibble",
+      "Version": "3.3.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Imports": [
+        "cli",
+        "lifecycle (>= 1.0.0)",
+        "magrittr",
+        "methods",
+        "pillar (>= 1.8.1)",
+        "pkgconfig",
+        "rlang (>= 1.0.2)",
+        "utils",
+        "vctrs (>= 0.5.0)"
+      ],
+      "Suggests": [
+        "bench",
+        "bit64",
+        "blob",
+        "brio",
+        "callr",
+        "DiagrammeR",
+        "dplyr",
+        "evaluate",
+        "formattable",
+        "ggplot2",
+        "here",
+        "hms",
+        "htmltools",
+        "knitr",
+        "lubridate",
+        "nycflights13",
+        "pkgload",
+        "purrr",
+        "rmarkdown",
+        "stringi",
+        "testthat (>= 3.0.2)",
+        "tidyr",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.3.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6)"
+      ],
+      "Imports": [
+        "cli (>= 3.4.1)",
+        "dplyr (>= 1.0.10)",
+        "glue",
+        "lifecycle (>= 1.0.3)",
+        "magrittr",
+        "purrr (>= 1.0.1)",
+        "rlang (>= 1.1.1)",
+        "stringr (>= 1.5.0)",
+        "tibble (>= 2.1.1)",
+        "tidyselect (>= 1.2.0)",
+        "utils",
+        "vctrs (>= 0.5.2)"
+      ],
+      "Suggests": [
+        "covr",
+        "data.table",
+        "knitr",
+        "readr",
+        "repurrrsive (>= 1.1.0)",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+      ],
+      "LinkingTo": [
+        "cpp11 (>= 0.4.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.2.1",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.4)"
+      ],
+      "Imports": [
+        "cli (>= 3.3.0)",
+        "glue (>= 1.3.0)",
+        "lifecycle (>= 1.0.3)",
+        "rlang (>= 1.0.4)",
+        "vctrs (>= 0.5.2)",
+        "withr"
+      ],
+      "Suggests": [
+        "covr",
+        "crayon",
+        "dplyr",
+        "knitr",
+        "magrittr",
+        "rmarkdown",
+        "stringr",
+        "testthat (>= 3.1.1)",
+        "tibble (>= 2.1.3)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "timeDate": {
+      "Package": "timeDate",
+      "Version": "4052.112",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)",
+        "methods"
+      ],
+      "Imports": [
+        "graphics",
+        "utils",
+        "stats"
+      ],
+      "Suggests": [
+        "RUnit"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "timechange": {
+      "Package": "timechange",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.3)"
+      ],
+      "LinkingTo": [
+        "cpp11 (>= 0.2.7)"
+      ],
+      "Suggests": [
+        "testthat (>= 0.7.1.99)",
+        "knitr"
+      ],
+      "SystemRequirements": "A system with zoneinfo data (e.g. /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "tinytex": {
+      "Package": "tinytex",
+      "Version": "0.58",
+      "Source": "Repository",
+      "Imports": [
+        "xfun (>= 0.48)"
+      ],
+      "Suggests": [
+        "testit",
+        "rstudioapi"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "tzdb": {
+      "Package": "tzdb",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "testthat (>= 3.0.0)"
+      ],
+      "LinkingTo": [
+        "cpp11 (>= 0.5.2)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "ucminf": {
+      "Package": "ucminf",
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Suggests": [
+        "numDeriv"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "utf8": {
+      "Package": "utf8",
+      "Version": "1.2.6",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Suggests": [
+        "cli",
+        "covr",
+        "knitr",
+        "rlang",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "withr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "vctrs": {
+      "Package": "vctrs",
+      "Version": "0.6.5",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "cli (>= 3.4.0)",
+        "glue",
+        "lifecycle (>= 1.0.3)",
+        "rlang (>= 1.1.0)"
+      ],
+      "Suggests": [
+        "bit64",
+        "covr",
+        "crayon",
+        "dplyr (>= 0.8.5)",
+        "generics",
+        "knitr",
+        "pillar (>= 1.4.4)",
+        "pkgdown (>= 2.0.1)",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tibble (>= 3.1.3)",
+        "waldo (>= 0.2.0)",
+        "withr",
+        "xml2",
+        "zeallot"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "viridisLite": {
+      "Package": "viridisLite",
+      "Version": "0.4.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Suggests": [
+        "hexbin (>= 1.27.0)",
+        "ggplot2 (>= 1.0.1)",
+        "testthat",
+        "covr"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "vroom": {
+      "Package": "vroom",
+      "Version": "1.7.0",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Imports": [
+        "bit64",
+        "cli (>= 3.2.0)",
+        "crayon",
+        "glue",
+        "hms",
+        "lifecycle (>= 1.0.3)",
+        "methods",
+        "rlang (>= 1.1.0)",
+        "stats",
+        "tibble (>= 2.0.0)",
+        "tidyselect",
+        "tzdb (>= 0.1.1)",
+        "vctrs (>= 0.2.0)",
+        "withr"
+      ],
+      "Suggests": [
+        "archive",
+        "bench (>= 1.1.0)",
+        "covr",
+        "curl",
+        "dplyr",
+        "forcats",
+        "fs",
+        "ggplot2",
+        "knitr",
+        "patchwork",
+        "prettyunits",
+        "purrr",
+        "rmarkdown",
+        "rstudioapi",
+        "scales",
+        "spelling",
+        "testthat (>= 2.1.0)",
+        "tidyr",
+        "utils",
+        "waldo",
+        "xml2"
+      ],
+      "LinkingTo": [
+        "cpp11 (>= 0.2.0)",
+        "progress (>= 1.2.3)",
+        "tzdb (>= 0.1.1)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "warp": {
+      "Package": "warp",
+      "Version": "0.2.3",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 4.0.0)"
+      ],
+      "Suggests": [
+        "covr",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "weights": {
+      "Package": "weights",
+      "Version": "1.1.2",
+      "Source": "Repository",
+      "Imports": [
+        "Hmisc",
+        "mice",
+        "gdata",
+        "stats",
+        "graphics",
+        "utils",
+        "lme4"
+      ],
+      "Suggests": [
+        "pscl",
+        "vioplot",
+        "glmnet",
+        "nnet",
+        "MASS",
+        "mgcv"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "withr": {
+      "Package": "withr",
+      "Version": "3.0.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "graphics",
+        "grDevices"
+      ],
+      "Suggests": [
+        "callr",
+        "DBI",
+        "knitr",
+        "methods",
+        "rlang",
+        "rmarkdown (>= 2.12)",
+        "RSQLite",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
+    "wordcloud": {
+      "Package": "wordcloud",
+      "Version": "2.6",
+      "Source": "Repository",
+      "Depends": [
+        "methods",
+        "RColorBrewer"
+      ],
+      "Imports": [
+        "Rcpp (>= 0.9.4)"
+      ],
+      "Suggests": [
+        "tm (>= 0.6)",
+        "slam"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "writexl": {
+      "Package": "writexl",
+      "Version": "1.5.4",
+      "Source": "Repository",
+      "Suggests": [
+        "spelling",
+        "readxl",
+        "nycflights13",
+        "testthat",
+        "bit64"
+      ],
+      "SystemRequirements": "zlib",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "xfun": {
+      "Package": "xfun",
+      "Version": "0.57",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.2.0)"
+      ],
+      "Imports": [
+        "grDevices",
+        "stats",
+        "tools"
+      ],
+      "Suggests": [
+        "testit",
+        "parallel",
+        "codetools",
+        "methods",
+        "rstudioapi",
+        "tinytex (>= 0.30)",
+        "mime",
+        "litedown (>= 0.6)",
+        "commonmark",
+        "knitr (>= 1.50)",
+        "remotes",
+        "pak",
+        "curl",
+        "xml2",
+        "jsonlite",
+        "magick",
+        "yaml",
+        "data.table",
+        "qs2"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "yaml": {
+      "Package": "yaml",
+      "Version": "2.3.12",
+      "Source": "Repository",
+      "Suggests": [
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "yardstick": {
+      "Package": "yardstick",
+      "Version": "1.3.2",
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "cli",
+        "dplyr (>= 1.1.0)",
+        "generics (>= 0.1.2)",
+        "hardhat (>= 1.3.0)",
+        "lifecycle (>= 1.0.3)",
+        "rlang (>= 1.1.4)",
+        "tibble",
+        "tidyselect (>= 1.2.0)",
+        "utils",
+        "vctrs (>= 0.5.0)",
+        "withr"
+      ],
+      "Suggests": [
+        "covr",
+        "crayon",
+        "ggplot2",
+        "knitr",
+        "probably (>= 1.0.0)",
+        "rmarkdown",
+        "survival (>= 3.5-0)",
+        "testthat (>= 3.0.0)",
+        "tidyr"
+      ],
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# Research inputs and all derived outputs stay local.
+data/
+outputs/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.rds
+*.RDS
+*.RData
+*.rda
+*.pdf
+*.docx
+*.png
+*.jpg
+*.zip
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.env
+.env.*
+.bootstrap/
+renv/library/
+renv/staging/
+renv/local/
+renv/cache/
+.Rproj.user/
+*.log
+.DS_Store
+
+# The reviewed conceptual cover is the only committed raster asset.
+!assets/answers-cover.jpg

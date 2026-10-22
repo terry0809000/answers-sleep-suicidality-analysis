@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!renv.lock
+!R/
+!R/**
+!scripts/
+!scripts/**
+!tests/
+!tests/**
