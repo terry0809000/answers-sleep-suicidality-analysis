@@ -35,7 +35,7 @@ For a real run, mount an authorized input directory read-only at `/data` and a n
 
 ## Analysis and outputs
 
-- N1 is the primary network for H1a閳ユ弻1e and H2; N2閳ユ彉5 and the age sensitivity analysis retain their original roles.
+- N1 is the primary network for H1a-H1e and H2; N2-N5 and the age sensitivity analysis retain their original roles.
 - P1 is the separate classification analysis for H3; D1 describes rarer suicide-related outcomes.
 - The original seed, single-core execution, scoring, cohort rules, model functions and resampling totals are retained. A full run performs the registered 1,000-draw stages and can take hours.
 - A new, empty output directory is required for writing modes. The full run writes prepared datasets, result workbooks, figure PDFs, a private RDS object, session information and a run-specific lockfile.
